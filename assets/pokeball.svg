@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <linearGradient id="top" x1="60" y1="20" x2="170" y2="120" gradientUnits="userSpaceOnUse"><stop stop-color="#ff706f"/><stop offset=".5" stop-color="#ee3f48"/><stop offset="1" stop-color="#b91432"/></linearGradient>
+    <linearGradient id="bottom" x1="65" y1="130" x2="172" y2="223" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".5" stop-color="#edf2fa"/><stop offset="1" stop-color="#a5b5cd"/></linearGradient>
+    <radialGradient id="shine" cx="0" cy="0" r="1" gradientTransform="translate(79 56) rotate(52) scale(120 105)" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" stop-opacity=".4"/><stop offset=".7" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="button" x1="103" y1="99" x2="139" y2="147" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#b5c5db"/></linearGradient>
+    <clipPath id="ball"><circle cx="120" cy="120" r="105"/></clipPath>
+  </defs>
+  <g clip-path="url(#ball)">
+    <path fill="url(#top)" d="M10 10h220v110H10z"/>
+    <path fill="url(#bottom)" d="M10 120h220v110H10z"/>
+    <path fill="#192333" d="M10 110h220v21H10z"/>
+    <circle cx="120" cy="120" r="105" fill="url(#shine)"/>
+    <ellipse cx="73" cy="49" rx="30" ry="11" transform="rotate(-33 73 49)" fill="white" opacity=".35"/>
+  </g>
+  <circle cx="120" cy="120" r="105" stroke="#192333" stroke-width="9"/>
+  <circle cx="120" cy="120" r="34" fill="#192333"/>
+  <circle cx="120" cy="120" r="24" fill="url(#button)"/>
+  <circle cx="120" cy="120" r="16" fill="#f5f8fc" stroke="#a3b1c5" stroke-width="2"/>
+</svg>
